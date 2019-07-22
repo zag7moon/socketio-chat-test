@@ -6,7 +6,7 @@ services:
   - docker:dind
 
 variables:
-  STAGE_SSH_USER: sibdev
+  STAGE_SSH_USER: user
   SSH_OPT: "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 
 stages:
