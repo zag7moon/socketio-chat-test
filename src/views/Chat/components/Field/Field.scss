@@ -1,0 +1,12 @@
+@import "../../../../styles/vars";
+
+.field-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__form-control {
+    width: 100%;
+    margin-right: 10px !important;
+  }
+}

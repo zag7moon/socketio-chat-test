@@ -1,0 +1,19 @@
+@import "../../../../styles/vars";
+
+.user-message {
+  line-height: 18px;
+  padding: 10px 0;
+  display: flex;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+  &__title {
+    margin-right: 20px;
+    color: $primary-color;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &__text {
+    color: $text-color;
+  }
+}

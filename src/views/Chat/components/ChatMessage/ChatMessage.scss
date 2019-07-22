@@ -1,0 +1,11 @@
+@import "../../../../styles/vars";
+
+.chat-message {
+  padding: 10px 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+
+  &__text {
+    color: $notice-color;
+  }
+}

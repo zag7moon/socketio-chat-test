@@ -1,0 +1,31 @@
+@import "../../../../styles/vars";
+
+.login-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    width: 400px;
+  }
+
+  &__title {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__login-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__form-control {
+    width: 80%;
+    margin-right: 20px;
+  }
+}
